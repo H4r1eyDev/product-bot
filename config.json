@@ -1,0 +1,38 @@
+{
+    "main_config": {
+        "prefix": "YOUR_PREFIX",
+        "token": "YOUR_TOKEN",
+        "botstatus": "CUSTOM_STATUS",
+        "presence": "WATCHING/PLAYING"
+    },
+
+    "server_config": {
+        "guild_id": "YOUR_GUILD_ID",
+        "server_icon": "SERVER_ICON_URL",
+        "server_name": "SERVER_NAME",
+        "copyright": "© YOUR SERVER NAME",
+        "embed_colours": "CUSTOM HASH COLOUR",
+        "products_for_sale": [
+            "1) Cool Harley | **£5**",
+            "2) Damn, This is cool bruh | **£4**",
+            "3) lol | **£5**",
+            "4) Put You're Products here. | **£22**",
+            "5) Kek | **£25**",
+            "6) Eat You're Mum - Hani | **£27**"
+        ]
+    },
+
+    "order_config": {
+        "order_channel_id": "CHANNEL_ID",
+        "order_response_channel": "RESPONSE_CHANNEL"
+    },
+
+    "command_centre": {
+        "in_progress_channel_notifications": "true/false",
+        "progress_update_channel": "PROGRESS_UPDATE_CHANNEL",
+        "in_progress_dm_notifications": "true/false",
+        "commission_status": "closed/open",
+        "allowed_to_complete": "ROLE_ID_FOR_PEOPLE_THAT_CAN_COMPLETE_ORDERS",
+        "allowed_to_in_progress": "ROLE_ID_FOR_PEOPLE_THAT_CAN_PUT_ORDERS_AS_IP"
+    }
+}
