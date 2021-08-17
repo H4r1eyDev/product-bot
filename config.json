@@ -1,17 +1,17 @@
 {
-    "main_config": {
-        "prefix": "YOUR_PREFIX",
-        "token": "YOUR_TOKEN",
-        "botstatus": "CUSTOM_STATUS",
-        "presence": "WATCHING/PLAYING"
+    "mainConfig": {
+        "botPrefix": "INFO IN READ ME",
+        "botToken": "INFO IN READ ME",
+        "botStatus": "INFO IN READ ME",
+        "botPresence": "INFO IN READ ME"
     },
 
     "server_config": {
-        "guild_id": "YOUR_GUILD_ID",
-        "server_icon": "SERVER_ICON_URL",
-        "server_name": "SERVER_NAME",
-        "copyright": "© YOUR SERVER NAME",
-        "embed_colours": "CUSTOM HASH COLOUR",
+        "guild_id": "INFO IN READ ME",
+        "server_icon": "https://cdn.discordapp.com/avatars/832958313062727701/8c99fab1e48594fc10bd528966a4b655.png?size=256",
+        "server_name": "INFO IN READ ME",
+        "copyright": "© INFO IN READ ME",
+        "embed_colours": "INFO IN READ ME",
         "products_for_sale": [
             "1) Cool Harley | **£5**",
             "2) Damn, This is cool bruh | **£4**",
@@ -23,16 +23,16 @@
     },
 
     "order_config": {
-        "order_channel_id": "CHANNEL_ID",
-        "order_response_channel": "RESPONSE_CHANNEL"
+        "order_channel_id": "INFO IN READ ME",
+        "order_response_channel": "INFO IN READ ME"
     },
 
     "command_centre": {
-        "in_progress_channel_notifications": "true/false",
-        "progress_update_channel": "PROGRESS_UPDATE_CHANNEL",
-        "in_progress_dm_notifications": "true/false",
-        "commission_status": "closed/open",
-        "allowed_to_complete": "ROLE_ID_FOR_PEOPLE_THAT_CAN_COMPLETE_ORDERS",
-        "allowed_to_in_progress": "ROLE_ID_FOR_PEOPLE_THAT_CAN_PUT_ORDERS_AS_IP"
+        "in_progress_channel_notifications": "INFO IN READ ME",
+        "progress_update_channel": "INFO IN READ ME",
+        "in_progress_dm_notifications": "INFO IN READ ME",
+        "commission_status": "INFO IN READ ME",
+        "allowed_to_complete": "INFO IN READ ME",
+        "allowed_to_in_progress": "INFO IN READ ME"
     }
 }
