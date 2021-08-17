@@ -10,7 +10,7 @@ module.exports = {
         .setColor(client.config["server_config"].embed_colour)
         .setThumbnail(i)
         .setDescription(client.config["server_config"].products_for_sale)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, i)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, i)
         message.channel.send(prod)
         message.delete().catch(O_o=>{});
     }
