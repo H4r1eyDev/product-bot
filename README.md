@@ -1,5 +1,5 @@
 # ProductBot
-Want to sell your products, with a safe and neat system, but don't want to purchase a website and setup a database? Look no further, this is as simple as it can get. Nice simple config for all users! No Database required for this simple and easy product bot, any issues you can report them via the support Discord: https://discord.gg/43akmun7Qd
+Simple, nice and neat product bot for selling items without a website - for free! https://discord.gg/43akmun7Qd
 
 
 # **Simple Setup**
