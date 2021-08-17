@@ -40,7 +40,7 @@ module.exports = {
                 value: 'Displays all of the products.'
             }
         )
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         message.channel.send(help)
     }
 }
