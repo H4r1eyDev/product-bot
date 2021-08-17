@@ -7,19 +7,18 @@ module.exports = {
         const inprogress = new Discord.MessageEmbed()
         .setAuthor(`Completed Information Sent to ${user.user.username} ✅`, user.user.displayAvatarURL({ dynamic: true }))
         .setColor(client.config["server_config"].embed_colours)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         message.channel.send(inprogress)
 
         if(client.config["command_centre"].in_progress_channel_notifications == 'true'){
         const guild = client.guilds.cache.get(client.config["server_config"].guild_id);
         const channel = guild.channels.cache.get(client.config["command_centre"].progress_update_channel)
         const notify = new Discord.MessageEmbed()
-        .setAuthor(`${user.user.username} You're Order is now **Completed**! ✅`, user.user.displayAvatarURL({ dynamic: true }))
+        .setAuthor(`${user.user.username} You're Order is now Completed! You may contact the original seller to obtain your purchases items!`, user.user.displayAvatarURL({ dynamic: true }))
         .setColor(client.config["server_config"].embed_colours)
         .setTimestamp()
-        .setDescription(`<@${user.user.id}> You're Order is now Completed!`)
         .setThumbnail(client.config["server_config"].server_icon)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         channel.send(notify)
         } // channel notifications 
 
@@ -28,9 +27,8 @@ module.exports = {
         .setAuthor(`Well Done, You're Order is Completed!`, user.user.displayAvatarURL({ dynamic: true }))
         .setColor(client.config["server_config"].embed_colours)
         .setThumbnail(client.config["server_config"].server_icon)
-        .setDescription(`Hello **<@${user.user.id}> (${user.user.id})** I am **${message.author.username}** *(No Reply)*. I am here to inform you that you're order has now been **Completed**! \n
-        **Message From Seller (${message.author.username}):** ${args.splice(1).join(' ')}`)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setDescription(`Hello **<@${user.user.id}> (${user.user.id})** I am **${message.author.username}** *(No Reply)*. I am here to inform you that you're order has now been **Completed**!\n**Message From Seller (${message.author.username}):** ${args.splice(1).join(' ')}`)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         user.user.send(dm)
 
 
