@@ -12,9 +12,8 @@ module.exports = {
         .setAuthor(`Order Sent! ✅`, message.author.displayAvatarURL({ dynamic: true }))
         .setColor(client.config["server_config"].embed_colour)
         .setTimestamp()
-        .setDescription(`Order Information: \n
-        You are ordering: ${t}`)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, i)
+        .setDescription(`Order Information:\nYou are ordering: ${t}`)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, i)
         message.channel.send(order).then(msg => {
             msg.delete({ timeout: 5000 })
         })
@@ -30,13 +29,8 @@ module.exports = {
         .setColor(client.config["server_config"].embed_colours)
         .setThumbnail(client.config["server_config"].server_icon)
         .setTimestamp()
-        .setDescription(`**Order Information** \n
-        **Buyer:**\n
-        *${message.author.tag} // ${message.author.id} // <@${message.author.id}>*
-        \n
-        **Item:**\n
-        *${args.join(" ")}*`)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setDescription(`**Order Information**\n\n**Buyer:**\n${message.author.tag} // ${message.author.id} // <@${message.author.id}>\n**Item:**\n*${args.join(" ")}*`)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         channel.send(order2)
     }
 }
