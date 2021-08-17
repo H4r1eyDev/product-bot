@@ -12,6 +12,7 @@ Want to sell you're products, with a safe and neat system, but don't want to pur
 7) DONE!
 
 
-Information: 
-Made By: 𝗛𝟰𝗿𝟭𝗲𝘆#6225
-Support Server: https://discord.gg/43akmun7Qd
+**Information:** 
+- Made By: 𝗛𝟰𝗿𝟭𝗲𝘆#6225
+- Support Server: https://discord.gg/43akmun7Qd
+- Edits from [@Hyperz](https://hyperz.dev/discord)
