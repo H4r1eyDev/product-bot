@@ -7,7 +7,7 @@ module.exports = {
         const inprogress = new Discord.MessageEmbed()
         .setAuthor(`Progress Message Sent To ${user.user.username} ✅`, user.user.displayAvatarURL({ dynamic: true }))
         .setColor(client.config["server_config"].embed_colours)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         message.channel.send(inprogress)
 
         if(client.config["command_centre"].in_progress_channel_notifications == 'true'){
@@ -19,7 +19,7 @@ module.exports = {
         .setTimestamp()
         .setDescription(`<@${user.user.id}> You're Order is now in progress!`)
         .setThumbnail(client.config["server_config"].server_icon)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         channel.send(notify)
         } // channel notifications 
 
@@ -28,9 +28,8 @@ module.exports = {
         .setAuthor(`Congratulations, You're Order is now In Progress!`, user.user.displayAvatarURL({ dynamic: true }))
         .setColor(client.config["server_config"].embed_colours)
         .setThumbnail(client.config["server_config"].server_icon)
-        .setDescription(`Hello **<@${user.user.id}> (${user.user.id})** I am **${message.author.username}** *(No Reply)*. I am here to inform you that you're order has now been reviewed and is in progress! \n
-        **Message From Seller:** ${args.splice(1).join(' ')}`)
-        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDevelopment`, client.config["server_config"].server_icon)
+        .setDescription(`Hello **<@${user.user.id}> (${user.user.id})** I am **${message.author.username}** *(No Reply)*. I am here to inform you that you're order has now been reviewed and is in progress!\n**Message From Seller:** ${args.splice(1).join(' ')}`)
+        .setFooter(client.config["server_config"].copyright + ` | Made By HarleyDev`, client.config["server_config"].server_icon)
         user.user.send(dm)
 
 
