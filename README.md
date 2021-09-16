@@ -1,4 +1,4 @@
-# ProductBot
+# ProductBot [OLD]
 Simple, nice and neat product bot for selling items without a website - for free! https://discord.gg/43akmun7Qd
 
 
